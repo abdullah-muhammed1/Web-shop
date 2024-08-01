@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Exo', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    top: 0;
+    left: 0;
+}
+.logofont{
+    font-family: 'Great Vibes', cursiv
+}
+.nav-item i{
+    padding-left: 20px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: coral;
+}
+.section-a span{
+    color: #ffa00b;
+}
+hr{
+    width: 30px;
+    height: 3px;
+    background-color: #ffa00b;
+}
+.section-a button{
+    background-color: #1d1d1d;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    padding: 16px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.6;
+}
+.section-a button:hover{
+    background-color: #3a3833;
+}
+.section-a{
+    background-image: url("shop/back.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 60px center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* mobil */
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+#bar{
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 7px;
+    transition: 0.3 ease;
+    color: black;
+}
+#bar:hover,
+#bar.active{
+    color:#ffa00b;;
+}
+
+.buttonn{
+    color: black;;
+    text-decoration: none;
+    transition: all 0.3s;
+    transform:translateY(70px);
+    border-bottom: 1px solid black;
+    padding: 2.5px;
+    text-transform: uppercase;
+}
+
+.buttonn:hover{
+  color: #2a2a2a; 
+  border-bottom: 1px solid #2a2a2a;
+}
+
+
+
+/* product */
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.product img{
+    transition: all 0.3s;
+}
+.product:hover img{
+    opacity: 0.7;
+}
+.product .buy-btn{
+    background-color: #fb774b;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.3s;
+}
+.product:hover .buy-btn{
+    transform: translateY(0);
+    opacity: 1;
+    
+}
+.buy-btn{
+    background-color: #ffa00b;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0.1px;
+}
+.stars i{
+ font-size: 0.8rem;
+ color: goldenrod;
+}
+.stars{
+    padding: 10px 0;
+}
+#banner{
+    background-image: url("imgs/b\(2\).jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top 70px center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.kl{
+    background-color: #1d1d1d;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    padding: 16px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.6;
+}
+#banner h4{
+    color: #d8d8d8;
+}
+#banner h1{
+    color: #d8d8d8;
+}
+#banner button{
+    background-color: #fb774b;
+}
+footer a{
+text-decoration: none;
+color: #1d1d1d;
+}
+.foot{
+    margin-left: 200px;
+}
+footer li a{
+    font-size: 0.8rem;
+}
+footer .copright a{
+    color: #1d1d1d;
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    margin: 0 5px;
+    font-size: 1.8rem;
+}
+footer .copright a:hover{
+    background-color: #ffa00b;
+    color: #fff;
+}
+.bi-bag-fill{
+    padding-right: 15px;
+    font-size: 25px;
+  }
